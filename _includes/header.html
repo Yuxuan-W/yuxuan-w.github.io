@@ -14,7 +14,7 @@
           <h1 class="panel-cover__title panel-title">{{ site.title }}</h1>
         </a>
         <hr class="panel-cover__divider">
-        <em><p class="panel-cover__description">{{ site.description }}</p></em>
+        <cursive><p class="panel-cover__description" style="white-space: pre-line;">{{ site.description }}</p></cursive>
         <hr class="panel-cover__divider panel-cover__divider--secondary">
 
         <div class="navigation-wrapper">
@@ -22,7 +22,7 @@
           <nav class="cover-navigation cover-navigation--primary">
             <ul class="navigation">
               <li class="navigation__item"><a href="{{ site.baseurl }}/#blog" title="link to {{ site.title }} blog"
-                  class="blog-button">Blog</a></li>
+                  class="blog-button">About Me</a></li>
             </ul>
           </nav>
 
@@ -83,13 +83,14 @@
               </li>
               {% endif %}
 
-              <!-- RSS -->
+              <!-- RSS
               <li class="navigation__item">
                 <a href="{{ site.baseurl }}/feed.xml" title="Subscribe" target="_blank">
                   <i class="icon icon-rss"></i>
                   <span class="label">RSS</span>
                 </a>
               </li>
+              -->
 
             </ul>
           </nav>
