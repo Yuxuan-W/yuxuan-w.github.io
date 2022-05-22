@@ -8,12 +8,12 @@ baseurl: ''
 # disable_landing_page: true
 
 author:
-  name: 'Josh Gerdes'
+  name: 'Yuxuan Wang'
   email: yuxuan.www@gmail.com
   twitter_username: joshgerdes
   facebook_username: joshgerdes
-  github_username:  joshgerdes
-  linkedin_username:  joshgerdes
+  github_username:  Yuxuan-W
+  linkedin_username:  Yuxuan Wang
 
 defaults:
   -
