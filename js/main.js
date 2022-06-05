@@ -18,7 +18,7 @@ exclude: 'yes'
       }
     })
 
-    if (window.location.hash && window.location.hash == 'aboutme') {
+    if (window.location.hash && window.location.hash == '#aboutme') {
       $('.panel-cover').addClass('panel-cover--collapsed')
     }
 
