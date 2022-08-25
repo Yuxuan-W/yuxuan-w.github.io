@@ -30,7 +30,7 @@
 
           <nav class="cover-navigation navigation--social">
             <ul class="navigation">
-
+              
               {% if site.author.twitter_username %}
               <!-- Twitter -->
               <li class="navigation__item">
@@ -60,6 +60,17 @@
                   title="{{ site.author.linkedin_username }} on LinkedIn" target="_blank">
                   <i class="icon icon-social-linkedin"></i>
                   <span class="label">LinkedIn</span>
+                </a>
+              </li>
+              {% endif %}
+
+              {% if site.author.google_scholar_id %}
+              <!-- Google Scholar -->
+              <li class="navigation__item">
+                <a href="https://scholar.google.com/citations?user={{ site.author.google_scholar_id }}"
+                  title="{{ site.author.linkedin_username }} on LinkedIn" target="_blank">
+                  <i class="icon icon-quote"></i>
+                  <span class="label">GoogleScholar</span>
                 </a>
               </li>
               {% endif %}
