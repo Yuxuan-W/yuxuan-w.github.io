@@ -10,10 +10,11 @@ baseurl: ''
 author:
   name: 'Yuxuan Wang'
   email: ethan.yuxuan.wang@gmail.com
-  twitter_username: YuxuanWww
-  facebook_username: ethan.wang.me
+  # twitter_username: YuxuanWww
+  # facebook_username: ethan.wang.me
   github_username:  Yuxuan-W
-  linkedin_username:  宇轩-王-5161331a1
+  # linkedin_username:  宇轩-王-5161331a1
+  google_scholar_id:  ZsgftFwAAAAJ 
 
 defaults:
   -
