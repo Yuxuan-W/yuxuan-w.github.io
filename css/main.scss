@@ -82,11 +82,51 @@ paper_img {
 }
 
 paper_title {
-	font-size: 1.1em; 
+	font-size: 1.2em; 
   line-height: 26px;
   margin-top: .8em;
 	margin-bottom: .4em;
 	font-family: "Roboto Slab", serif;
-	font-weight: lighter;
+	font-weight: 500;
 	color: #333333;
 	-webkit-font-smoothing: antialiased; }
+
+.light-text {
+  font-weight: lighter;
+}
+
+.thin-text {
+  font-weight: 100;
+}
+
+.extra-light-text {
+  font-weight: 200;
+}
+
+.light-text-numerical {
+  font-weight: 300;
+}
+
+.normal-text {
+  font-weight: 400; /* or just 'normal' */
+}
+
+.medium-text {
+  font-weight: 500;
+}
+
+.semi-bold-text {
+  font-weight: 600;
+}
+
+.bold-text {
+  font-weight: 700; /* or just 'bold' */
+}
+
+.extra-bold-text {
+  font-weight: 800;
+}
+
+.black-text {
+  font-weight: 900;
+}

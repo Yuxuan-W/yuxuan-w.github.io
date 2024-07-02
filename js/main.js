@@ -14,16 +14,12 @@ exclude: 'yes'
         $('.content-wrapper').addClass('animated slideInRight')
       } else {
         $('.panel-cover').css('max-width', currentWidth)
-        $('.panel-cover').animate({ 'max-width': '5300px', 'width': '35%' }, 400, swing = 'swing', function () {
-          // 设置内容区域的左边距，使其与 panel-cover 的宽度一致
-          $('.content-wrapper').css('margin-left', '35%')
-        })
+        $('.panel-cover').animate({ 'max-width': '700px', 'width': '35%' }, 400, swing = 'swing', function () {})
       }
     })
 
     if (window.location.hash && window.location.hash == '#aboutme') {
       $('.panel-cover').addClass('panel-cover--collapsed')
-      $('.content-wrapper').css('margin-left', '35%')
     }
 
     if (window.location.pathname !== '{{ site.baseurl }}/' && window.location.pathname !== '{{ site.baseurl }}/index.html') {
