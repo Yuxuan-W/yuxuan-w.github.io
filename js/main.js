@@ -14,7 +14,10 @@ exclude: 'yes'
         $('.content-wrapper').addClass('animated slideInRight')
       } else {
         $('.panel-cover').css('max-width', currentWidth)
-        $('.panel-cover').animate({ 'max-width': '5300px', 'width': '35%' }, 400, swing = 'swing', function () { })
+        $('.panel-cover').animate({ 'max-width': '5300px', 'width': '35%' }, 400, swing = 'swing', function () {
+          // 设置内容区域的左边距，使其与 panel-cover 的宽度一致
+          $('.content-wrapper').css('margin-left', '35%')
+        })
       }
     })
 
