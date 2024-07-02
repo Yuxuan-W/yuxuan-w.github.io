@@ -1222,8 +1222,8 @@ hr {
 	background-size: cover; }
 
 .panel-cover--collapsed {
-	width: 40%;
-	max-width: 530px; }
+	width: 35%;
+	max-width: 5300px; }
 
 .panel-cover--overlay {
 	display: block;
@@ -1567,7 +1567,7 @@ input[type="tel"] {
 
 @media all and (min-width: 1300px) {
 	.content-wrapper {
-		margin-left: 530px; } }
+		margin-left: 35%; } }
 @media all and (max-width: 1100px) {
 	.panel-cover__logo {
 		width: 70px; }

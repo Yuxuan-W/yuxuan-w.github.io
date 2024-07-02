@@ -23,6 +23,7 @@ exclude: 'yes'
 
     if (window.location.hash && window.location.hash == '#aboutme') {
       $('.panel-cover').addClass('panel-cover--collapsed')
+      $('.content-wrapper').css('margin-left', '35%')
     }
 
     if (window.location.pathname !== '{{ site.baseurl }}/' && window.location.pathname !== '{{ site.baseurl }}/index.html') {
